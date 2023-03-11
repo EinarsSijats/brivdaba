@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'add_event_screen.dart';
-import 'volunteering_screen.dart';
+import 'event_list_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AddEventScreen(),
+      home: EventListScreen(),
     );
   }
 }
